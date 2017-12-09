@@ -39,10 +39,11 @@ var timeoutID;
 
 
 function setPlaybackRate() {
-    // grab the suggest buttons.
-    var suggestButtons = document.getElementsByClassName("suggestbutton");
+	// grab the suggest buttons.
+	var suggestButtons = document.getElementsByClassName("suggestbutton");
     
 	infobox.innerHTML = suggestButtons.length + " suggest buttons.";
+	infobox.style.visibility = "visible";
 }
 
 
